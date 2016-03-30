@@ -1,0 +1,12 @@
+<div id="header">
+  		<span id="head"> My Contacts </span>
+  		<a href="/new"><div id="addbutton"> + Add New Contact </div> </a>
+  	</div>
+  	<div id="name-list"></div>
+	{{#contacts}}
+		<div class="listdiv"> 
+			<p class="listname">
+				<a href="/contact/{{objectId}}"> <image src="{{picture}}"> {{fname}} {{lname}}</p>
+		</div>
+	</a>
+	{{/contacts}}
